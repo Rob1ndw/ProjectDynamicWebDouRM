@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Free Toilet Brussel</title>
+    <link rel="stylesheet" href="Project.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="thema.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <nav class="navigatie">
+          <ul>
+            <li><a href="" class="nav-item">Home</a></li>
+            <li><button id="theme-toggle">Dark Mode</button></li>
+            <li class="dropdown">
+              <button class="dropdown-toggle" id="filter-button">Filteren ▼</button>
+              <ul class="dropdown-menu">
+                <li><a href="#" id="filter-favorites">⭐ Favorieten</a></li>
+                <li><a href="#" class="filter-commune" data-city="Bruxelles">📍 Bruxelles</a></li>
+                <li><a href="#" class="filter-commune" data-city="Haren">📍 Haren</a></li>
+                <li><a href="#" class="filter-commune" data-city="Alle">🌍 Toon alles</a></li>
+              </ul>              
+            </li>            
+            <li><a href="" class="nav-item">Search</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="center-container">
+      <h1 class=".h1" >FREE PUBLIC TOILETS</h1>
+      <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="Project.mjs"></script>
+      </div>
+      <table id="dataTable" border="1">
+        <thead>
+            <tr>
+                <th>Adres (FR)</th>
+                <th>Adres (NL)</th>
+                <th>Postcode</th>
+                <th>Gemeente</th>
+                <th>Longitude</th>
+                <th>Latitude</th>
+                <th>Favoriet</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>&copy; 2025 Project Free Toilet Brussel</p>
+        <p>Ontwikkeld door <strong>Robin De Wolf & Matteo Diaz Niembro </strong></p>
+      </div>
+    </footer>
+    
+    
+
+      
+    
+
+    
+</body>
+</html>
