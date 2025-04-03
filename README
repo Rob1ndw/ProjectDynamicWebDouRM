@@ -1,0 +1,18 @@
+Project Froject Free Toilet Brussel
+
+Ons website gaat over alle gratis toiletten in Brussel en er rond en waar ze allemaal gelegen zijn.
+We zijn voor een simpel html design gegaan niet te veel en makkelijk te lezen voor de gebruiken.
+Je kan op de site het filteren op locaties en favorieten en dan kan je op de kaart zijn waar, je kan ook je favorite aanduiden zodat je het altijd gemakelijk
+kan terug vinden en niet moet gaan zoeken.
+
+We hadden in het begin beetje moeilijk om de favorieten alleen in op de kaart te laten tonen maar door een beetje zoek werk is alles toch gelukt geraakt.
+Het enigste dat niet lukt op de website is om de filters te laten verdwijnen ze staan altijd al te voorschijn, we hadden niet gevonden hoe we dat weg kregen.
+
+Handleiding:
+Je gaat op de site en zoekt naar de dichtste toilet in je buurt als je die goed vondt en proper kan je die als favoriet zetten in de tabel zodat je in de toekomst
+weet naar welke toilet je terug kunt gaan zonder een risico te nemen.
+
+Code:
+We hebben HTML gebruikt voor de site en css om het proberder te maken, we hebben dan ook mjs gebruikt voor onze java script in te plaatsen.
+
+Tenslotte hebben we ook nog een darkmode er ingeplaats want dat is tegenwoordig wel populair bij de gebruikers.
